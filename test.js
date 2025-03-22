@@ -5,9 +5,7 @@
 \paperw11900\paperh16840\margl1440\margr1440\vieww11520\viewh8400\viewkind0
 \pard\tx566\tx1133\tx1700\tx2267\tx2834\tx3401\tx3968\tx4535\tx5102\tx5669\tx6236\tx6803\pardirnatural\partightenfactor0
 
-\f0\fs24 \cf0 Test Cases:\
-\
-import React from "react";\
+\f0\fs24 \cf0 import React from "react";\
 import \{ render, fireEvent \} from "@testing-library/react-native";\
 import \{ OTPInput \} from "./OTPInput";\
 \
@@ -48,7 +46,8 @@ describe("OTPInput Component", () => \{\
 \});\
 \
 \
-input:\
+\
+inpu:\
 import React, \{ useRef, useState, useEffect, useMemo, forwardRef, useImperativeHandle \} from "react";\
 import \{\
   Animated,\
@@ -225,6 +224,4 @@ const styles = StyleSheet.create(\{\
   hiddenInput: \{ ...StyleSheet.absoluteFillObject, opacity: Platform.select(\{ ios: 0.02, default: 0 \}) \},\
   stick: \{ width: 2, height: 30, backgroundColor: "green" \},\
 \});\
-\
-\
 }
